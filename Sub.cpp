@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main (){
+    int num1 ;
+    cout<<"Enter number 1 (Should be greater than num2):";
+    cin>>num1;
+    int num2;
+    cout<<"Enter number 2:";
+    cin>> num2;
+    int sum = (num1 - num2);
+    cout<< sum;
+
+
+}
